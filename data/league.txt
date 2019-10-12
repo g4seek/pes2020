@@ -1,0 +1,17 @@
+AFC Champions League	亚冠
+Campeonato Brasileiro Serie A	巴甲
+CFA Super League	中超
+English League	英超
+Eredivisie	荷甲
+Free Agent	自由球员
+Jupiler Pro League	比甲
+Liga Aguila	哥甲
+Liga NOS	葡甲
+Ligue 1 Conforama	法甲
+Other European Leagues	其它欧洲
+Russian Premier Liga	俄超
+Serie A TIM	意甲
+Spanish 2nd Division	西乙
+Spanish League	西甲
+Spor Toto Süper Lig	土超
+Superliga Argentina	阿甲
