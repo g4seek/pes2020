@@ -17,7 +17,7 @@ func main() {
 	// 满级总评>=85
 	//fetchData("potential", 0, 85, true)
 	// 30级总评>=85,满级总评>=90
-	//fetchData("elite", 85, 90, true)
+	fetchData("elite", 85, 90, true)
 }
 
 var cookies = map[string]string{
@@ -102,7 +102,7 @@ func fetchData(mode string, minRatingLevel30, minRatingLevelMax int, isMaxLevel 
 			playerId++
 			p.printData(playerId)
 		})
-		time.Sleep(3)
+		time.Sleep(time.Duration(3)*time.Second)
 		page++
 	}
 }
@@ -168,7 +168,7 @@ func (p Player) printData(playerId int) {
 }
 
 func (p Player) getMaxLevelData() Player {
-	for level := 31; level < p.MaxLevel+1; level++ {
+	for level := 2; level < p.MaxLevel+1; level++ {
 		growthList := strings.Split(growthMap[strconv.Itoa(level)], ",")
 		for _, attribute := range growthList {
 			field := reflect.ValueOf(&p).Elem().FieldByName(attribute)
