@@ -102,7 +102,7 @@ func fetchData(mode string, minRatingLevel30, minRatingLevelMax int, isMaxLevel 
 			playerId++
 			p.printData(playerId)
 		})
-		time.Sleep(time.Duration(3)*time.Second)
+		time.Sleep(time.Duration(10)*time.Second)
 		page++
 	}
 }
