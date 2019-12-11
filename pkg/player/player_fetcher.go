@@ -32,7 +32,7 @@ var headers = map[string]string{
 
 var footMap = map[string]string{"Right foot": "右脚", "Left foot": "左脚"}
 var posMap = map[string]string{
-	"CF": "中锋", "RWF": "右边锋", "LWF": "左边锋", "SS": "影锋", "AMF": "前腰", "CMF": "中场", "RMF": "右前卫",
+	"CF": "中锋", "RWF": "右边锋", "LWF": "左边锋", "SS": "影锋", "AMF": "前腰", "CMF": "中前卫", "RMF": "右前卫",
 	"LMF": "左前卫", "DMF": "后腰", "CB": "中后卫", "RB": "右后卫", "LB": "左后卫", "GK": "门将",
 }
 var growthMap = readConfig("growth.txt")
